@@ -54,47 +54,32 @@ button {
     color: #404bbf;
 }
 
-.nav-item-link:active {
+.nav-item-link:focus {
     text-decoration: underline;
     color: #404bbf;
 }
 
-.address {}
+.address {
+    font-style: normal;
+}
 
 .ul-address {}
 
 .li-address-email {}
 
-.email:hover {
-    color: #404bbf;
-    ;
-}
-
-.email {
-
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    font-style: normal;
-
-}
-
 .li-address-tel {}
 
-.tel:hover {
-    color: #404bbf;
-    ;
-}
-
-.tel {
+.contact {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
+}
+
+.contact:hover,
+.contact:focus {
+    color: #404bbf;
 }
 
 /* #endregion */
@@ -105,7 +90,7 @@ button {
     background-color: #2e2f42;
 }
 
-.title1-section-one {
+.title-section-one {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -121,11 +106,11 @@ button {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: #fff;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
 }
 
-.button-section-one:hover {
+.button-section-one:hover,
+.button-section-one:focus {
     background-color: #404bbf;
 }
 
@@ -134,13 +119,13 @@ button {
 /* #region Styles Section Two */
 .section-two {}
 
-.title2-section-two {}
+.title-section-two {}
 
 .ul-feature {}
 
 .nav-section-two {}
 
-.title3-section-two {
+.title-section-two {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -160,9 +145,15 @@ button {
 /* #region Styles Section Three */
 .section-three {
     background-color: #f4f4fd;
+    font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
 }
 
-.title2-section-three {}
+.title-section-three {}
 
 .ul-team {}
 
@@ -170,7 +161,8 @@ button {
 
 .image-section-three {}
 
-.title3-name-section-three {
+.title-name-section-three {
+    background-color: #FFFFFF;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -190,10 +182,12 @@ button {
 /* #region Styles Section Four */
 .section-four {}
 
-.title2-section-four {
+.title-two-section-four {
+    text-transform: capitalize;
+    text-align: center;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     color: #2e2f42;
 }
@@ -204,7 +198,7 @@ button {
 
 .image-section-four {}
 
-.title3-section-four {
+.title-section-four {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -231,7 +225,7 @@ button {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
