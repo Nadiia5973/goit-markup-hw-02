@@ -198,13 +198,13 @@ button {
     color: #2e2f42;
 }
 
-.ul-portfolio1 {}
+.ul-portfolio {}
 
-.nav-section-four1 {}
+.nav-section-four {}
 
-.image-section-four1 {}
+.image-section-four {}
 
-.title3-section-four1 {
+.title3-section-four {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -212,33 +212,13 @@ button {
     color: #2e2f42;
 }
 
-.content-section-four1 {
+.content-section-four {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 
-.ul-portfolio2 {}
-
-.nav-section-four2 {}
-
-.image-section-four2 {}
-
-.title3-section-four2 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-}
-
-.content-section-four2 {
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-}
 
 /* #endregion */
 
