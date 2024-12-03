@@ -143,7 +143,9 @@ button {
 /* #endregion */
 
 /* #region Styles Section Three */
-.section-three {}
+.section-three {
+    background-color: #f4f4fd;
+}
 
 .title-section-three {
     background-color: #f4f4fd;
@@ -158,7 +160,9 @@ button {
 
 .ul-team {}
 
-.nav-section-three {}
+.nav-section-three {
+    background-color: #FFFFFF;
+}
 
 .image-section-three {}
 
